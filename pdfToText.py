@@ -14,7 +14,7 @@ def convert():
         pageObj = pdfReader.getPage(i)
         filetext.write(pageObj.extractText())
         # extracting text from page 
-        print(pageObj.extractText()) 
+        # print(pageObj.extractText()) 
     
     # closing the pdf file object 
     pdfFileObj.close() 
